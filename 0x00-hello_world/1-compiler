@@ -1,2 +1,2 @@
-#!/bin/bass
-gcc -S -Wall $CFILE.c -o $CFILE
+#!/bin/bash
+gcc -S -Wall $CFILE.c -o
