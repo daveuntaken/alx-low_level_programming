@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 int main(void)
 {
   int n;
@@ -8,14 +8,14 @@ int main(void)
   srand(time(0));
   n = rand() - RAND_MAX / 2;
 
-  if (int n < 0)
-    printf("%d\n,n is negative");
+  if (n < 0)
+    printf("n is negative");
 
-  if (int n == 0)
-    printf("%d\n, n is negative");
+  if (n == 0)
+    printf("n is negative");
 
-  if (int n > 0)
-    printf("%d\n, n is positive");
+  if (n > 0)
+    printf("n is positive");
 
   return (0);
 }
