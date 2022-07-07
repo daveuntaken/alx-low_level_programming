@@ -3,5 +3,6 @@ int main(void){
   int result = a * b;
   return result;
 }
+return 0;
 
   
